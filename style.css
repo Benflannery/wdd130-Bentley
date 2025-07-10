@@ -10,6 +10,23 @@
       color: #333;
     }
 
+    h1 {
+        text-align: center;
+        font-size: 5em;
+    }
+
+    #gallery_grid {
+        display: grid;
+        grid-template-columns: 2fr 2fr 0.5fr 2fr 2fr;
+        grid-column-gap: 1em;
+        grid-row-gap: 4em;
+    }
+
+    #gallery_grid img {
+        aspect-ratio: 1;
+        width: 100%;
+    }
+
     /* Navigation Bar */
     nav {
       background-color: #D7Ce93;
